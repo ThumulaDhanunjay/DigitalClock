@@ -1,0 +1,48 @@
+body{
+    background-size: 100% 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width: 60vw;
+    height: 80vh;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    background-color: rgb(128, 128, 128, 0.445);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    transition: box-shadow 2s;
+}
+#container:hover{
+    box-shadow: 40px 40px 0px yellow,-40px -40px 0px lime,-40px 40px 0px violet,40px -40px 0px red;
+    border: 10px groove blue;
+}
+#Time{
+    font-size: 100px;
+    color: transparent;
+    text-shadow: 2px 2px 0px black, -2px -2px 0px rgb(15, 14, 14);
+    font-family: 'Orbitron', sans-serif;
+}
+#Date{
+    font-size: 80px;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+#Day{
+    font-size: 70px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 25px;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+#sec{
+    font-size: 110px;
+    position: relative;
+    bottom: 410px;
+    z-index: -1;
+    color: green;
+    font-family: 'Orbitron', sans-serif;
+}
